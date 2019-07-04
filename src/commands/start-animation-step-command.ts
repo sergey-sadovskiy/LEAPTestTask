@@ -10,9 +10,9 @@ export class StartAnimationStepCommand extends AbstractCommand {
         if (!this.animationService.isAnimationStepInProgress) {
             if (this.animationService.hasAvailableAnimations()) {
                 this.animationService.isAnimationStepInProgress = true;
-                this.commandsService.invokeCommand(Names.Commands.START_ANIMATION, this.animationService.getNextAnimationConfig());
+                this.commandsService.callCommand(Names.Commands.START_ANIMATION, this.animationService.getNextAnimationConfig());
             } else {
-                this.commandsService.invokeCommand(Names.Commands.COMPLETE_ANIMATION);
+                this.commandsService.callCommand(Names.Commands.COMPLETE_ANIMATION);
             }
         }
     }

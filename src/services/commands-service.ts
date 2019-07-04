@@ -25,7 +25,7 @@ export class CommandsService {
         }
     }
 
-    public invokeCommand(commandName: string, params?: {}): void {
+    public callCommand(commandName: string, params?: {}): void {
         if (_.has(this._commands, commandName)) {
             this._commands[commandName].execute(params);
         }

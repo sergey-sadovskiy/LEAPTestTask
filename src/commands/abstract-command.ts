@@ -17,7 +17,7 @@ export abstract class AbstractCommand {
 
     /**
      * Should be implemented by derived class.
-     * This method will be called each time when a command is invoked via CommandsService.
+     * This method will be called each time when a command is called via CommandsService.
      */
     public abstract execute(params?: {}): void;
 }

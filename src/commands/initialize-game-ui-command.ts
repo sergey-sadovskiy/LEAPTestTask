@@ -12,7 +12,7 @@ export class InitializeGameUiCommand extends AbstractCommand {
         const jumpButton: HTMLElement = document.getElementById("jumpButton");
         if (!_.isNil(jumpButton)) {
             jumpButton.addEventListener("click", () => {
-                this.commandsService.invokeCommand(Names.Commands.START_ANIMATION_STEP);
+                this.commandsService.callCommand(Names.Commands.START_ANIMATION_STEP);
             });
         }
     }

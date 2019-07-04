@@ -60,9 +60,9 @@ export class EntryPoint {
      */
     private handleResourcesLoadedEvent(): void {
         SceneService.instance.initializePixiApplication();
-        CommandsService.instance.invokeCommand(Names.Commands.CREATE_GAME_OBJECTS);
-        CommandsService.instance.invokeCommand(Names.Commands.INITIALIZE_ANIMATION_CONFIG);
-        CommandsService.instance.invokeCommand(Names.Commands.INITIALIZE_GAME_UI);
+        CommandsService.instance.callCommand(Names.Commands.CREATE_GAME_OBJECTS);
+        CommandsService.instance.callCommand(Names.Commands.INITIALIZE_ANIMATION_CONFIG);
+        CommandsService.instance.callCommand(Names.Commands.INITIALIZE_GAME_UI);
     }
 
     /**
