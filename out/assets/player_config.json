@@ -1,0 +1,10 @@
+{
+  "name": "player",
+  "width": 40,
+  "height": 80,
+  "positionX": 50,
+  "positionY": 720,
+  "anchorX": 0.5,
+  "anchorY": 1,
+  "color": "0x000000"
+}

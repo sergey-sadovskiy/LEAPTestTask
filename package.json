@@ -1,0 +1,23 @@
+{
+  "name": "LEAP_Test_Task",
+  "version": "1.0.0",
+  "author": "Sergey Sadovskiy",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.135",
+    "@types/gsap": "1.20.2",
+    "webpack": "4.35.2",
+    "webpack-cli": "3.3.5",
+    "typescript": "3.5",
+    "ts-loader": "6.0.4",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "lodash": "4.17.11",
+    "pixi.js": "5.0.4",
+    "gsap": "^2.1.3"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "obstacles": [
+    {
+      "name": "obstacle1",
+      "width": 80,
+      "height": 160,
+      "positionX": 250,
+      "positionY": 720,
+      "color": "0xf0b343"
+    },
+    {
+      "name": "obstacle2",
+      "width": 80,
+      "height": 400,
+      "positionX": 450,
+      "positionY": 720,
+      "color": "0xf0b343"
+    },
+    {
+      "name": "obstacle3",
+      "width": 80,
+      "height": 300,
+      "positionX": 650,
+      "positionY": 720,
+      "color": "0xf0b343"
+    },
+    {
+      "name": "obstacle4",
+      "width": 80,
+      "height": 0,
+      "positionX": 900,
+      "positionY": 720,
+      "color": "0xf0b343"
+    }
+  ]
+}
